@@ -1,0 +1,23 @@
+.btn-d:hover {
+    cursor: pointer;
+    background-color: #E55501;
+    transition: background-color 0.5s ease;
+    color: #fff;
+}
+
+.btn-d {
+    background-color: #fff;
+}
+
+.btn-v {
+    background-color: #FF7526;
+    transition: background-color 0.5s ease;
+    color: #fff;
+}
+
+.btn-v:hover {
+    cursor: pointer;
+
+    background-color: #E55501;
+    color: #fff; 
+}

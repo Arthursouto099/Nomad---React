@@ -1,0 +1,60 @@
+@keyframes growWidth {
+    0% {
+      width: 0px;
+      opacity: 0;
+    }
+    100% {
+      width: 120vw;
+      opacity: 0.6;
+    }
+  }
+  
+  .side-menu {
+    position: absolute;
+    background-color: black;
+    opacity: 0.1;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  /* Aplicar animação quando ativado */
+  .side-menu-active {
+    animation: growWidth 0.5s ease forwards;
+  }
+  
+
+
+  @keyframes growWidthBar {
+    0% {
+      width: 0px;
+      opacity: 0;
+    }
+    100% {
+      width: 85vw;
+      opacity: 1;
+    }
+  }
+
+  .menu-side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0; 
+    background-color: #ffffff; 
+    z-index: 9999; 
+    overflow: hidden;
+    opacity: 1; 
+    backdrop-filter: none; 
+  }
+  
+
+  .side-menu-active-bar {
+    animation: growWidthBar 0.5s forwards;
+    animation-delay: 0.3s;
+  }
+  

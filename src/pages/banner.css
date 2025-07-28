@@ -1,0 +1,169 @@
+.banner-section {
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.banner {
+    background-color: black;
+    border-radius: 10px;
+    background-image: url("../assets/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-card {
+    position: relative;
+    background-image: url("../assets/card1.jpg");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-m {
+    background-color: #fff;
+
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 290px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-min-section {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.text-banner {
+
+  flex: 1;
+
+}
+
+
+.text-banner h1 {
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 120px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.text-banner p {
+    margin-top: 20px;
+    max-width: 500px;
+    color: #fff;
+    
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.text-banner h1 p {
+    margin-left: 150px;
+    margin-top: -170px;
+   
+}
+
+
+.icons-list-rounded {
+    display: flex;
+    
+    margin-left: 5px;
+    width: 200px;
+    align-items: center;
+    height: 70px;
+}
+
+.rounded {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #EDEDE6;
+
+
+}
+
+.rounded img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.h1-icon {
+    max-width: 200px;
+}
+
+.sha {
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+   .banner {
+    flex-direction: column-reverse;
+   }
+
+   .text-banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .text-banner h1, p {
+    margin-left: 0px;
+    margin-top: 0px;
+ 
+   
+}
+
+.text-banner p {
+    text-align: center;
+}
+
+   .text-banner h1 {
+    font-size: 50px;
+     max-width: 350px;
+     line-height: 50px;
+     text-align: center;
+   }
+
+   .image-card {
+    width: 100%;
+   }
+
+   .icons-list-rounded {
+    justify-content: center;
+   }
+   
+   .h1-icon {
+    text-align: center;
+   }
+
+   .card-m {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+   
+
+
+}
+   
+}

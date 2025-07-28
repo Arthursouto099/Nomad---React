@@ -1,0 +1,15 @@
+.container {
+    width: 1300px;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 60px;
+   
+
+}
+
+section {
+    background-color: #FFF;
+    display:  flex;
+    justify-content: center;
+    margin-top: 40px;
+}
