@@ -42,7 +42,7 @@ function Banner() {
 
                             </div>
 
-                            <h1 className='h1-icon' style={{ fontWeight: "lighter", fontSize: "16px" }}>
+                            <h1 className='h1-icon' style={{ fontWeight: "500", fontSize: "16px" }}>
                                 12K+ Membership enjoy our facility
 
 
@@ -73,6 +73,16 @@ function Banner() {
 
 
             </div>
+        </section>
+    )
+}
+
+
+
+export function BannerDiv({children}) {
+    return (
+        <section className=''>
+
         </section>
     )
 }

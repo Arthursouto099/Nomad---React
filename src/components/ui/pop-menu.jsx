@@ -3,7 +3,7 @@ import "../ui/pop-menu.css"
 
 function PopMenu({view, onMouseOut}) {
 
-  const active = view ? "active-pop-menu" : "not-active"
+  const active = view === true ? "active-pop-menu" : "not-active"
   
 
   return (

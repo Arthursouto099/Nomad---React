@@ -33,8 +33,8 @@ function Card({ url, title, desc, date, nota, category }) {
 
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>
-              <h1>$1,580</h1>
-              <p>9 day package</p>
+              <h1 style={{fontSize: "17px"}}>$1,580</h1>
+              <p style={{fontSize: "14px"}}>9 day package</p>
             </div>
 
 

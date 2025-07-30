@@ -3,13 +3,30 @@
     padding: 20px;
     margin: 5px;
     margin-top: 60px;
-   
+
 
 }
 
+
+.section_bg {}
+
 section {
     background-color: #FFF;
-    display:  flex;
+    display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+
+
+
+.smoke_bar {
+    position: absolute;
+    width: 100vw;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+   
+
 }

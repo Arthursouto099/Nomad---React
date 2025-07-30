@@ -8,7 +8,7 @@ function Button({variant = "default" , children})  {
   const borderColor  = variant === "default" ? "1px solid #F7F6F6 " : "none"
 
   return (
-    <button className={classB} onMouseEnter 
+    <button className={classB}  
     style={{
         padding: "14px",
         width: "140px",

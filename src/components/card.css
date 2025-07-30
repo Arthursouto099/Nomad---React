@@ -18,11 +18,12 @@
 @media screen and (max-width: 900px) {
     .card {
         width: 362px;
-        margin: 20px;
+        margin: 0 40px;
 
     }
 
     .sub_card {
         width: 100%;
+        margin: 0 40px;
     }
 }
